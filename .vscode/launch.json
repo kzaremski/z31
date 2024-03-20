@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "Debug Digidash MacOS",
+            "command": "cd digidash ; make macos && ./digidash",
+            "request": "launch",
+            "type": "node-terminal"
+        }
+    ]
+}
