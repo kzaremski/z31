@@ -3,9 +3,488 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "e00ba6e7-4bb8-4e04-aa40-ef0aede5f98f")
-	(paper "A4")
+	(paper "User" 203.2 152.4)
+	(title_block
+		(title "Nissan Maxima DC0444 Fan Wiring")
+		(date "2026-05-31")
+	)
 	(lib_symbols
-		(symbol "Motor:Fan_Maxima"
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Thermistor"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TH"
+				(at 2.54 1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Thermistor"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Temperature dependent resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res thermistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Thermistor_0_1"
+				(polyline
+					(pts
+						(xy -1.905 3.175) (xy -1.905 1.905) (xy 1.905 -1.905) (xy 1.905 -3.175) (xy 1.905 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Thermistor_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MaximaFans:Fan_Controller_DC0444"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -19.558 14.986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fan_Controller_DC0444_0_1"
+				(rectangle
+					(start -22.86 12.7)
+					(end 24.13 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fan_Controller_DC0444_1_1"
+				(text "Davies Craig DC0444\nDual Fan Controller"
+					(at 0.762 -0.508 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 7.62 0)
+					(length 2.54)
+					(name "Battery_Positive"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 5.08 0)
+					(length 2.54)
+					(name "Battery_Negative"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 -5.08 0)
+					(length 2.54)
+					(name "Ignition_Signal"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 -7.62 0)
+					(length 2.54)
+					(name "Air_Conditioner_Wire"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 7.62 180)
+					(length 2.54)
+					(name "Temperature_Probe_+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 5.08 180)
+					(length 2.54)
+					(name "Temperature_Probe_-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -5.08 180)
+					(length 2.54)
+					(name "Fan_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -7.62 180)
+					(length 2.54)
+					(name "Fan_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MaximaFans:Fan_Maxima"
 			(pin_names
 				(offset 0)
 			)
@@ -22,7 +501,7 @@
 				)
 			)
 			(property "Value" "Fan_Maxima"
-				(at 2.54 -2.54 0)
+				(at 10.668 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -76,10 +555,22 @@
 				)
 			)
 			(symbol "Fan_Maxima_0_1"
+				(polyline
+					(pts
+						(xy -4.445 0) (xy -3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(arc
-					(start 0 3.81)
-					(mid -0.0015 0.9048)
-					(end -2.54 -0.508)
+					(start 0 2.54)
+					(mid -0.0015 -0.3652)
+					(end -2.54 -1.778)
 					(stroke
 						(width 0)
 						(type default)
@@ -90,19 +581,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 4.572) (xy 0 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 4.2672) (xy 0 4.6228)
+						(xy 0 2.921) (xy 0 4.191)
 					)
 					(stroke
 						(width 0)
@@ -113,7 +592,7 @@
 					)
 				)
 				(circle
-					(center 0 1.016)
+					(center 0 -0.254)
 					(radius 3.2512)
 					(stroke
 						(width 0.254)
@@ -124,9 +603,9 @@
 					)
 				)
 				(arc
-					(start -2.54 -0.508)
-					(mid 0 1.0618)
-					(end 2.54 -0.508)
+					(start -2.54 -1.778)
+					(mid 0 -0.2082)
+					(end 2.54 -1.778)
 					(stroke
 						(width 0)
 						(type default)
@@ -137,19 +616,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.2352) (xy 0 -2.6416)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0 -4.572)
+						(xy 0 -3.429) (xy 0 -4.699)
 					)
 					(stroke
 						(width 0)
@@ -160,9 +627,21 @@
 					)
 				)
 				(arc
-					(start 2.54 -0.508)
-					(mid 0.047 0.9315)
-					(end 0 3.81)
+					(start 2.54 -1.778)
+					(mid 0.047 -0.3385)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 4.445 0)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -174,7 +653,7 @@
 			)
 			(symbol "Fan_Maxima_1_1"
 				(pin passive line
-					(at -5.8867 0.7542 0)
+					(at -6.35 0 0)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -192,7 +671,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 7.62 270)
+					(at 0 6.35 270)
 					(length 2.54)
 					(name "+"
 						(effects
@@ -210,7 +689,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 0 -6.35 90)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -228,7 +707,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.8445 0.7542 180)
+					(at 6.35 0 180)
 					(length 2.54)
 					(name "+"
 						(effects
@@ -248,27 +727,858 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+BATT"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Stick DC0444 temperature probe into the fins of the\nradiator closest to the inlet (upper hose). This \nyields the most accurate temperature reading."
+		(exclude_from_sim no)
+		(at 132.588 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33c58d14-387a-4e8e-827a-751bcc7e6535")
+	)
+	(text "Tap into AC compressor\nclutch power cable."
+		(exclude_from_sim no)
+		(at 74.93 33.274 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "416ac0ce-c223-480e-bb88-24898adb16f2")
+	)
+	(text "Tap into ignition coil\npower wire."
+		(exclude_from_sim no)
+		(at 46.99 33.274 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e64a03f4-2624-467a-8ad8-eb453891c19a")
+	)
+	(junction
+		(at 110.49 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09bff01a-c5b1-495b-911c-3288168af12b")
+	)
+	(junction
+		(at 38.1 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "556c70bc-25ad-47b1-ad1b-095a7cafb17f")
+	)
+	(junction
+		(at 101.6 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bd6e5fb-22f9-43c0-a8e4-90722ef3c5e8")
+	)
+	(junction
+		(at 120.65 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a443f92a-491f-4a5d-bf7c-ec7ece5f2cd3")
+	)
+	(junction
+		(at 67.31 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce2c9e08-a1b6-4386-9fc2-cce6d9f572c5")
+	)
+	(junction
+		(at 76.2 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d278d900-c51f-490f-86e5-b0bf2e194367")
+	)
+	(wire
+		(pts
+			(xy 82.55 85.09) (xy 96.52 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061c7af2-a184-410a-bbd6-24894034205b")
+	)
+	(wire
+		(pts
+			(xy 38.1 100.33) (xy 67.31 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "074bc196-d9bf-48ec-ae60-3648836c249d")
+	)
+	(wire
+		(pts
+			(xy 152.4 64.77) (xy 152.4 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "086fcb47-e38a-4244-9e8d-1eaedba901f1")
+	)
+	(wire
+		(pts
+			(xy 101.6 85.09) (xy 101.6 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09793892-c097-4311-a209-22368aced76c")
+	)
+	(wire
+		(pts
+			(xy 111.76 62.23) (xy 118.11 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "105a49c8-b0b9-43c5-9b37-c595c1e3eff0")
+	)
+	(wire
+		(pts
+			(xy 111.76 49.53) (xy 152.4 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25247e29-a89b-4612-b51c-a1049ece73f3")
+	)
+	(wire
+		(pts
+			(xy 67.31 100.33) (xy 76.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9f283b-55b5-4792-a31f-fd8e32b6bc29")
+	)
+	(wire
+		(pts
+			(xy 73.66 35.56) (xy 48.26 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30519117-5834-48d5-85a4-6f70337008a8")
+	)
+	(wire
+		(pts
+			(xy 69.85 85.09) (xy 67.31 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31709227-062c-4a88-a8bc-411e9a22c099")
+	)
+	(wire
+		(pts
+			(xy 96.52 72.39) (xy 120.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "381ab04f-5803-4eff-a959-b650ad1a5bad")
+	)
+	(wire
+		(pts
+			(xy 76.2 91.44) (xy 76.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b02f515-013f-4c3a-9e0c-ab2f3f5dcdda")
+	)
+	(wire
+		(pts
+			(xy 110.49 74.93) (xy 110.49 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48cc6038-2423-424a-8e7f-fa1aff53f238")
+	)
+	(wire
+		(pts
+			(xy 152.4 67.31) (xy 148.59 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c768c14-75a4-4b59-96d2-7b7808b844b3")
+	)
+	(wire
+		(pts
+			(xy 152.4 49.53) (xy 152.4 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d55c085-f4e6-4574-8be9-300ff706f432")
+	)
+	(wire
+		(pts
+			(xy 76.2 74.93) (xy 110.49 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b37932-e5e4-4570-a0cb-442ad21aed88")
+	)
+	(wire
+		(pts
+			(xy 38.1 52.07) (xy 38.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2635f2-dc87-452e-b166-81b6dcb1fc13")
+	)
+	(wire
+		(pts
+			(xy 48.26 64.77) (xy 59.69 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "606e2ac1-ee36-48e1-ac0c-ac3cb7b58a4c")
+	)
+	(wire
+		(pts
+			(xy 59.69 52.07) (xy 38.1 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71bd3594-4cf3-444e-b534-419da561a62d")
+	)
+	(wire
+		(pts
+			(xy 73.66 33.02) (xy 73.66 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74041f41-aa5c-4f6c-8c3d-3d98de932176")
+	)
+	(wire
+		(pts
+			(xy 38.1 49.53) (xy 59.69 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c7f3cb8-0c4b-4e1e-ab33-18fab284f0b9")
+	)
+	(wire
+		(pts
+			(xy 38.1 100.33) (xy 38.1 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "836ece64-2068-40df-89ae-95ab009d02b6")
+	)
+	(wire
+		(pts
+			(xy 111.76 52.07) (xy 148.59 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ce6d8a-a2e1-444c-85f6-5b0a1722310b")
+	)
+	(wire
+		(pts
+			(xy 118.11 62.23) (xy 118.11 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91188eb1-6874-41df-9cfd-3f77a879b01e")
+	)
+	(wire
+		(pts
+			(xy 120.65 85.09) (xy 116.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961d8c17-111b-4745-85df-71ecc6d4953e")
+	)
+	(wire
+		(pts
+			(xy 76.2 78.74) (xy 76.2 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ca57f5d-703c-4998-8d33-9956db458ffd")
+	)
+	(wire
+		(pts
+			(xy 104.14 85.09) (xy 101.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3415645-dac0-4098-a68f-cc686a401cbe")
+	)
+	(wire
+		(pts
+			(xy 118.11 74.93) (xy 110.49 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d4e1b5-cf0f-4708-88b9-7dfa7300c428")
+	)
+	(wire
+		(pts
+			(xy 148.59 67.31) (xy 148.59 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d62653-29a8-40e1-8ad2-0f7d1a615b9d")
+	)
+	(wire
+		(pts
+			(xy 110.49 91.44) (xy 110.49 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd915604-7278-4d30-a120-d1c378d77872")
+	)
+	(wire
+		(pts
+			(xy 38.1 30.48) (xy 38.1 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd0ca9a-2eab-49f2-885a-650fb5da75bf")
+	)
+	(wire
+		(pts
+			(xy 120.65 72.39) (xy 120.65 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df0ee1c2-3cba-4111-abec-2b33689a7388")
+	)
+	(wire
+		(pts
+			(xy 120.65 64.77) (xy 111.76 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8441df-0aa7-4917-83f2-ef0fcbd0098b")
+	)
+	(wire
+		(pts
+			(xy 76.2 100.33) (xy 101.6 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e00e21af-1547-4b27-b2f2-3c948a21932f")
+	)
+	(wire
+		(pts
+			(xy 45.72 33.02) (xy 45.72 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e021c0d3-41ec-4d9f-a8ab-69a21fdef909")
+	)
+	(wire
+		(pts
+			(xy 48.26 35.56) (xy 48.26 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ede6b6-d5b4-4c0f-8145-1b5d4f13743d")
+	)
+	(wire
+		(pts
+			(xy 96.52 85.09) (xy 96.52 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e953fea8-8470-4093-aa3b-5a26d03e9d81")
+	)
+	(wire
+		(pts
+			(xy 110.49 100.33) (xy 101.6 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f01faebb-9bea-4013-82b0-334bec73e2c0")
+	)
+	(wire
+		(pts
+			(xy 120.65 72.39) (xy 120.65 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3dc6709-753f-4573-9c9c-44fb399ae346")
+	)
+	(wire
+		(pts
+			(xy 67.31 85.09) (xy 67.31 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6daf025-3fbd-4420-9d3e-1deafabc78f3")
+	)
+	(wire
+		(pts
+			(xy 45.72 62.23) (xy 59.69 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf3f9c0-5d87-4998-9746-aab34ba0c544")
 	)
 	(symbol
-		(lib_id "Motor:Fan_Maxima")
-		(at 101.6 85.09 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 45.72 27.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "129941d3-df38-4e77-acd7-72774c432fa7")
+		(uuid "2d2519ad-a571-4c64-9772-ddc31354a488")
+		(property "Reference" "J1"
+			(at 46.99 27.3049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Switched Ignition Source"
+			(at 46.99 29.8449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 45.72 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e67265a7-eb35-43a9-879b-27d5abc5fa9f")
+		)
+		(instances
+			(project ""
+				(path "/e00ba6e7-4bb8-4e04-aa40-ef0aede5f98f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor")
+		(at 152.4 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "480b5f4d-289b-41dd-aaf6-e667f325959f")
+		(property "Reference" "TH1"
+			(at 156.21 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Thermistor"
+			(at 156.21 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor"
+			(at 152.4 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a65cfbd-b03e-448d-a9de-f08a50d747ce")
+		)
+		(pin "2"
+			(uuid "3dcc40b3-2d73-4573-b783-9acb242e185c")
+		)
+		(instances
+			(project ""
+				(path "/e00ba6e7-4bb8-4e04-aa40-ef0aede5f98f"
+					(reference "TH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MaximaFans:Fan_Maxima")
+		(at 110.49 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54c6edb3-a2c2-4436-ba6b-7e5d37f05216")
 		(property "Reference" "M2"
-			(at 111.76 77.9156 0)
+			(at 106.68 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Fan_Maxima"
-			(at 111.76 80.4556 0)
+		(property "Value" "Nissan Maxima Fan"
+			(at 122.936 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -276,7 +1586,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 84.836 0)
+			(at 110.49 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -285,7 +1595,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
-			(at 101.6 84.836 0)
+			(at 110.49 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -294,7 +1604,7 @@
 			)
 		)
 		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
-			(at 101.6 85.09 0)
+			(at 110.49 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -302,17 +1612,17 @@
 				(hide yes)
 			)
 		)
+		(pin "2"
+			(uuid "585a7a0c-f7c0-499e-8743-e584c5918e4d")
+		)
 		(pin "4"
-			(uuid "627b2eba-b741-48ff-955f-7eccc15f4e21")
+			(uuid "88dbf0e8-0cbb-4f25-906b-cc94c621d20d")
 		)
 		(pin "3"
-			(uuid "89cf57c2-20e9-4a74-82b7-86610142b5f7")
-		)
-		(pin "2"
-			(uuid "e6514ae2-b28c-4cd3-9447-68f0db2310d9")
+			(uuid "21accdea-a801-4121-a1d9-e33ec7f44bb5")
 		)
 		(pin "1"
-			(uuid "6899dbd3-51d1-4b88-ba39-33f39d2d2e24")
+			(uuid "011334a6-863b-407b-8247-a89ebc8ea498")
 		)
 		(instances
 			(project ""
@@ -324,25 +1634,112 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor:Fan_Maxima")
-		(at 62.23 85.09 0)
+		(lib_id "MaximaFans:Fan_Controller_DC0444")
+		(at 85.09 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b4ac3d9-d4bb-4047-875b-f52b00121a77")
-		(property "Reference" "M1"
-			(at 72.39 77.9156 0)
+		(uuid "5869e214-3129-498d-a2f8-38e89585e75a")
+		(property "Reference" "U1"
+			(at 85.598 42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Fan_Maxima"
-			(at 72.39 80.4556 0)
+		(property "Value" "~"
+			(at 85.725 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "027969b6-0ed0-4a02-abc8-bb2f6d15129d")
+		)
+		(pin ""
+			(uuid "7bb0dcdc-830d-4a6a-adb8-0251ad46aec4")
+		)
+		(pin ""
+			(uuid "906c5da9-8b9f-4fb0-818c-e462c4e38283")
+		)
+		(pin ""
+			(uuid "5dfc72ae-2371-4c01-9528-6dfa9bbf4201")
+		)
+		(pin ""
+			(uuid "df7ae2fa-6787-444c-85bb-bfa6069e6586")
+		)
+		(pin ""
+			(uuid "dbc0895a-57e8-41b5-b601-5c400de72923")
+		)
+		(pin ""
+			(uuid "c180c702-c742-4a59-ae13-9203379b9f96")
+		)
+		(pin ""
+			(uuid "fd3c3940-485c-4def-bdb1-870b014463c2")
+		)
+		(instances
+			(project ""
+				(path "/e00ba6e7-4bb8-4e04-aa40-ef0aede5f98f"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7815701e-7974-400a-ad01-cba046705a30")
+		(property "Reference" "#PWR02"
+			(at 38.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -350,7 +1747,204 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 84.836 0)
+			(at 38.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "703c3b17-16aa-41c6-b08f-4e44d51661a8")
+		)
+		(instances
+			(project ""
+				(path "/e00ba6e7-4bb8-4e04-aa40-ef0aede5f98f"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 38.1 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b567ef7-fdff-4957-a292-2ff28cde0a13")
+		(property "Reference" "#PWR01"
+			(at 38.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 38.1 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "692c86e3-27d2-4b28-97f5-33eb026f6474")
+		)
+		(instances
+			(project ""
+				(path "/e00ba6e7-4bb8-4e04-aa40-ef0aede5f98f"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 73.66 27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c45b904f-c6e4-4702-8a72-0e7f66aa27ee")
+		(property "Reference" "J2"
+			(at 74.93 27.3049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AC \"On\" Source"
+			(at 74.93 29.8449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a614ff6a-7157-4b99-b980-8265c378e72d")
+		)
+		(instances
+			(project "Maxima DC0444 Electric Fans"
+				(path "/e00ba6e7-4bb8-4e04-aa40-ef0aede5f98f"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MaximaFans:Fan_Maxima")
+		(at 76.2 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9175262-73b9-4b92-86d2-cb3b5381a82f")
+		(property "Reference" "M1"
+			(at 72.136 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Nissan Maxima Fan"
+			(at 88.646 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -359,7 +1953,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
-			(at 62.23 84.836 0)
+			(at 76.2 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -368,7 +1962,7 @@
 			)
 		)
 		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
-			(at 62.23 85.09 0)
+			(at 76.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -376,17 +1970,17 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "8b1913a2-5f2c-46a5-947e-620466dfc5ab")
-		)
-		(pin "4"
-			(uuid "0772d8c2-9b07-42ce-9ff0-09317b605629")
-		)
 		(pin "1"
-			(uuid "052eef83-058b-4243-a027-5011ad698c42")
+			(uuid "c1dea93b-2635-4491-85c2-4362862a3b96")
 		)
 		(pin "2"
-			(uuid "80de99e6-a32f-412f-bf3f-20b5b3acf63e")
+			(uuid "58535651-3613-41bc-8dac-7f64ef6d330c")
+		)
+		(pin "3"
+			(uuid "e0dfc3ff-bbec-4f77-a54e-1300d5d59602")
+		)
+		(pin "4"
+			(uuid "e4eac295-5d91-49f7-a040-3557cd8e16b3")
 		)
 		(instances
 			(project ""
